@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">
+            Thank you for taking the time to help us improve the platform
+        </p>
+    </header>
+    <main>
+
+       <form action="#" id="survey-form" method="post">
+       <label for="name-label" class="space">Name<input type="text" id="name" name="name" placeholder="Enter your name" required></label>
+       <label for="email-label" class="space">Email<input type="email" id="email" name="email" placeholder="Enter your email" required></label>
+       <label for="number-label" class="space">Age(optional)<input type="number" id="number" name="number" placeholder="Age" required min="15" max="40"></label>
+       <label for="dropdown" class="space"> Which option best describes your current role?
+       <select name="dropdown" id="dropdown">
+        <option value="">(select current role)</option>
+        <option value="1">Unemployed</option>
+        <option value="2">Teacher</option>
+        <option value="3">Student</option>
+       </select>
+       </label>
+       <label for="" id="radio" class="space">Would you recommend freeCodeCamp to a friend?
+       <label for="stack1" class="in"><input type="radio" name="stack" id="stack1" value="stack1" class="radio">Definitely</label>
+       <label for="stack2"  class="in"><input type="radio" name="stack" id="stack2" value="stack2" class="radio">Maybe</label>
+       <label for="stack3" class="in"><input type="radio" name="stack" id="stack3" value="stack3" class="radio">Not sure</label>
+       </label>
+       <label for="favorite" class="space">What is your favorite feature of freeCodeCamp?
+       <select name="favorite" id="favorite">
+        <option value="">(select an option)</option>
+        <option value="1">Student</option>
+        <option value="2">Employed</option>
+        <option value="3">Unemployed</option>
+       </select>
+       </label>
+       <label for="" id="checkboxes" class="space">
+        What would you like to see improved? (Check all that apply)
+       <label for="fe1"  class="in"><input type="checkbox" id="fe1" name="check1" value="fe1" class="check">FE</label>
+       <label for="fe2"  class="in"><input type="checkbox" id="fe2" name="check2" value="fe2" class="check">BE</label>
+       <label for="fe3"  class="in"><input type="checkbox" id="fe3" name="check3" value="fe3" class="check">UI/UX</label>
+       <label for="fe4"  class="in"><input type="checkbox" id="fe4" name="check4"  value="fe4" class="check">PM</label>
+       <label for="fe5"  class="in"><input type="checkbox" id="fe5" name="check5"  value="fe5" class="check">DP</label>
+       </label>
+       <label for="" class="comment">Any comment or Suggestion
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+       </label>
+   
+       <button type="submit" id="submit">Submit</button>
+       </form>
+    </main>
+</body>
+</html>

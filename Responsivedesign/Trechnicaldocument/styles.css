@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:#333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 100%;
+}
+nav>header{
+
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0px 30px;
+
+}
+.stick{
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+ul{
+margin: 10px auto;
+list-style: square;
+
+}
+ul>li:first-of-type{
+    padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+a:hover{
+    background-color: #EEEEEE;
+}
+section:last-of-type a{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    margin: 20px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+p{
+    margin: 10px;
+    padding: 5px;
+}
+.code{
+
+    background-color: #EEEEEE;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    overflow:hidden;
+
+}
+section>header{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+@media (min-width:400px) and (max-width:700px){
+    main{
+
+        height: 100%;
+        width: 100%;
+        
+    }
+    nav{
+        display: block;
+    }
+    .stick{
+        padding-left: 30px;
+    }
+    nav>header{
+        width: 200px;
+        margin:0 auto;
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    a{
+        display: block;
+        margin: 10px 0;
+    }
+    .code{
+        width: 400px;
+    }
+}
+@media (max-width:399px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        margin: auto;
+    }
+    section>header{
+  
+        font-size: 1em;
+
+    }
+    main{
+       margin:0 ;
+        height: 100%;
+        width: 100%;
+        
+    }
+    nav{
+        display: block;
+        z-index: 1;
+        background-color: white;
+        position: sticky;
+        top: 0;
+        font-size: 0.8rem;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .stick{
+        display: block;
+        padding-left: 30px;
+    }
+    nav>header{
+   display: none;
+
+    }
+
+    a{
+        display: block;
+        margin: 10px 0;
+    }
+    .code{
+        width: 300px;
+    }
+    section:last-of-type a{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}

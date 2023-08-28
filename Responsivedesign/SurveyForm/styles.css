@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+
+}
+html{
+    font-size: 20px;
+}
+body{
+    color: white;
+    opacity: 0.9;
+    background: linear-gradient(90deg, #282846, #37AF65);
+    background-image: url(https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    position:relative;
+}
+header{
+    
+    width: 450px;
+    margin: 50px  auto 0 auto ;
+    max-width:500px;
+   
+
+}
+h1{
+    font-size: 1.7rem;
+    text-align: center;
+}
+p{
+word-spacing: 5px;
+text-align: center;
+ 
+font-style: italic;
+}
+form{
+    position:sticky;
+    padding: 40px;
+    margin: auto;
+    background-color: #282846;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+     max-width: 700px;
+  
+
+}
+input,option,select{
+height:40px;
+width:100%  ;
+margin: 15px 0;
+padding: 10px  10px 5px 10px;
+border:none;
+border-radius: 5px;
+display: block;
+font-size: 1rem;
+}
+.check,.radio{
+width: auto;
+height: auto;
+display: inline;
+margin-right: 8px;
+}
+#radio,#checkboxes{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    margin: 15px 0;
+    width: 100%;
+    display: inline;
+    font-size: 1rem;
+}
+button{
+    border: 0;
+background-color: #37AF65;
+padding: 12px;
+font-size: 1rem;
+color: white;
+}
+select{
+    color:#495057;
+}
+.comment{
+    margin-top: 20px;
+}
