@@ -240,13 +240,13 @@ textarea {
 }
 
 .contact-text>div {
-    border-top: 3px solid var(--accent-color-2);
+    border-top: 5px solid var(--accent-color-2);
     width: 5%;
 }
 
 form>* {
     display: block;
-    margin: 3px 0;
+    margin: 5px 0;
 
 }
 
@@ -534,6 +534,9 @@ svg {
     nav>button {
         background-color: #212121;
         border: none;
+    }
+    form>button{
+        width:45%;
     }
 
     nav i {
